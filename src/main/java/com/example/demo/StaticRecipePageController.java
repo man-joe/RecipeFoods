@@ -17,4 +17,8 @@ public class StaticRecipePageController {
     public String Shumai() {
         return "Shumai";
     }
+    @RequestMapping("ImageGallery")
+    public String ImageGallery() {
+        return "ImageGallery";
+    }
 }
